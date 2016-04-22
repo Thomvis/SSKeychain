@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'SSKeychain'
-  spec.version      = '1.4.0+resourceBundle'
+  spec.name         = 'Highstreet_SSKeychain'
+  spec.version      = '1.5.0'
   spec.description  = 'Simple Cocoa wrapper for the keychain that works on OS X, iOS, tvOS, and watchOS.'
   spec.summary      = 'Simple Cocoa wrapper for the keychain.'
   spec.homepage     = 'https://github.com/soffes/sskeychain'
