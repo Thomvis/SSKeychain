@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = 'SSKeychain'
-  spec.version      = '1.4.0'
+  spec.version      = '1.4.0+resourceBundle'
   spec.description  = 'Simple Cocoa wrapper for the keychain that works on OS X, iOS, tvOS, and watchOS.'
   spec.summary      = 'Simple Cocoa wrapper for the keychain.'
   spec.homepage     = 'https://github.com/soffes/sskeychain'
   spec.author       = { 'Sam Soffes' => 'sam@soff.es' }
-  spec.source       = { :git => 'https://github.com/soffes/sskeychain.git', :tag => "v#{spec.version}" }
+  spec.source       = { :git => 'https://github.com/Thomvis/SSKeychain.git', :tag => "v#{spec.version}" }
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.source_files = 'Sources/*.{h,m}'
